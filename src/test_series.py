@@ -7,19 +7,26 @@ FIBONACCI_TABLE = [
     (4, 2),
     (5, 3),
     (6, 5),
+    (7, 8),
+    (8, 13)
 ]
 
 LUCAS_TABLE = [
     (1, 2),
     (2, 1),
     (3, 3),
-    (4, 4)
+    (4, 4),
+    (5, 7),
+    (6, 11),
+    (7, 18),
+    (8, 29)
 ]
 
 CUSTOM_TABLE = [
     (3, 2, 3, 5),
     (4, 4, 5, 14)
 ]
+
 
 @pytest.mark.parametrize('n, result', FIBONACCI_TABLE)
 def test_fibonacci_iter(n, result):

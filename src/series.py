@@ -52,8 +52,7 @@ def main():
         print(u'usage: ./series.py function (args)')
         sys.exit(1)
     else:
-        print(u'welcome to the math series python module')
-        print(u'please select a sequence')
+        print(u'This module defines functions that implement mathematical series.')
 
 if __name__ == '__main__':
     main()
